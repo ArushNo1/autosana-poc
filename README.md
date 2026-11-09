@@ -20,7 +20,7 @@ repo's root. Output of `node tools/autosana-batch-mcp/measure.ts <session>.jsonl
 
 **Official Autosana MCP**
 
-```
+
 wall-clock: 244s | assistant output tokens: 799 | input tokens (incl. cache): 310444
 
 | tool | calls | result chars | errors |
@@ -30,11 +30,10 @@ wall-clock: 244s | assistant output tokens: 799 | input tokens (incl. cache): 31
 | mcp__autosana__flows_run | 1 | 515 | 0 |
 | ToolSearch | 1 | 0 | 0 |
 | **total** | **5** | **5401** | **0** |
-```
+
 
 **autosana-batch**
 
-```
 wall-clock: 105s | assistant output tokens: 412 | input tokens (incl. cache): 144728
 
 | tool | calls | result chars | errors |
@@ -42,7 +41,6 @@ wall-clock: 105s | assistant output tokens: 412 | input tokens (incl. cache): 14
 | mcp__autosana-batch__run_and_wait | 1 | 415 | 0 |
 | ToolSearch | 1 | 0 | 0 |
 | **total** | **2** | **415** | **0** |
-```
 
 One flow per arm, so treat it as the shape of the difference, not a benchmark.
 Details and caveats: [docs/results.md](docs/results.md).
