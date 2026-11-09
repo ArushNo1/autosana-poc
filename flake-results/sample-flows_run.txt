@@ -1,0 +1,3 @@
+HEADER: tool=mcp__autosana__flows_run args={"app_id":"382c82ea-df15-4457-b5e9-ff57a57af03b","flow_ids":["bf271d08-3325-45f7-b846-281d7a784442"]} time=approx 2026-11-08T21:09:33Z (first calm run; raw output follows)
+---
+{"result":"✓ Successfully dispatched 1 flow(s) to execution queue\n\nFlow Group Run ID: 44325f1e-e31e-4d16-b1be-1f13e14dcd0c\nStatus: QUEUED (actively running on device)\nBalance: $124.80 available.\n\nFlow Run IDs:\n  - d203e5ed-0a7f-4496-a519-5124b4a1af8c\n\nDashboard: https://autosana.ai/runs/groups/44325f1e-e31e-4d16-b1be-1f13e14dcd0c\nBatch: https://autosana.ai/runs/batches/01211442-6b6a-405b-b13e-7a614edd1042\n\nUse list_flow_runs (list_suite_runs for a suite run) to check execution status and results."}
