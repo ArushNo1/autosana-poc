@@ -1,0 +1,8 @@
+.env*
+!.env.example
+
+# Claude Code session transcripts: hold prompts, local paths and signed log URLs
+evidence/
+
+# Early exploration notes and samples (signed URLs, internal IDs)
+archive/
